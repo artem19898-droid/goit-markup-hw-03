@@ -17,6 +17,12 @@ body {
  a {
     text-decoration: none;
  }
+
+ img {
+         display: block;
+         max-width: 100%;
+         height: auto;
+ }
 /* common */
  .container {
         max-width: 1158px;
@@ -233,6 +239,7 @@ text-align: center;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .team-text {
@@ -310,10 +317,13 @@ text-align: center;
     padding: 100px 0;
 }
 
+.footer-logo {
+        display: inline-block;
+        margin-bottom: 16px;
+}
+
 .footer-logo .logo-part {
-    color: #f4f4fd;
-    display: inline-block;
-    margin-bottom: 16px;
+color: #f4f4fd;
 }
 
 .footer-text {
@@ -322,4 +332,5 @@ text-align: center;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        max-width: 264px;
 }
