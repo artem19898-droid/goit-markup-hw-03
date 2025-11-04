@@ -106,6 +106,8 @@ color: #2e2f42;
 /* hero */
  .hero {
 background-color: #2e2f42;
+padding: 188px 0;
+text-align: center;
  }
 
  .hero-title {
@@ -115,29 +117,58 @@ background-color: #2e2f42;
         text-align: center;
         color: #fff;
         line-height: 1.07;
+        max-width: 496px;
+        margin: 0 auto;
  }
 
  .hero-button {
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.04em;
-            color: #fff;
-                background: #4d5ae5;
-                cursor: pointer;
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 1.5;
+         letter-spacing: 0.04em;
+         color: #fff;
+        background: #4d5ae5;
+        cursor: pointer;
+        border-radius: 4px;
+        padding-block: 16px;
+        padding-inline: 32px;
+        border: none;
+        margin-top: 48px;
  }
 
  .hero-button:hover,
  .hero-button:focus {
      background-color: #404bbf;
  }
+
 /* features */
+
+.features {
+        padding-top: 120px;
+        padding-bottom: 120px;
+}
+
+.features-title {
+        color: transparent;
+        font-size: 0;
+}
+
 .features-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+.features-list {
+        display: flex;
+        gap: 24px;
+        margin-top: 120px;
+}
+
+.features-item {
+        width: calc((100% - 72px) / 4)
 }
 
 .features-text {
@@ -147,9 +178,18 @@ background-color: #2e2f42;
         letter-spacing: 0.02em;
         color: #434455;
 }
+
+.features-container {
+        display: block;
+        padding-bottom: 120px;
+}
 /* team */
 .team {
   background-color: #f4f4fd;
+}
+
+.team-container {
+        padding-bottom: 120px;
 }
 
 .team-title {
@@ -160,6 +200,17 @@ background-color: #2e2f42;
         color: #2e2f42;
         line-height: 1.11;
         text-transform: capitalize;
+        display: flex;
+}
+
+.team-title {
+        display: block;
+        padding-top: 120px;
+        padding-bottom: 72px;
+}
+
+.team-list {
+        gap: 24px;
 }
 
 .team-item {
